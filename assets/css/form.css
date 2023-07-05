@@ -1,0 +1,108 @@
+ fieldset {
+
+   border-color: yellow;
+   border-style: solid;
+
+ }
+
+ input {
+   width: 30%;
+   margin-bottom: 30px;
+   cursor: pointer;
+ }
+
+#envoyer:hover {
+  background-color: #ffffff;
+  color: black;
+  background-image: none;
+}
+
+ #envoyer {
+   width: 10%;
+   margin-bottom: 16px;
+   background-size: contain;
+   background-image: url(autre-blob.png);
+ }
+
+
+ #envoyer {
+
+   background-color: black;
+   width: 45%;
+   display: block;
+   margin: auto;
+   font-family: 'Nunito', sans-serif;
+   color: yellow;
+   border-radius: 30px;
+   font-size: x-large;
+   border-color: yellow;
+
+ }
+
+ label {
+
+   font-family: 'Nunito', sans-serif;
+   color: yellow;
+ }
+
+ form {
+   width: 100%;
+   /* Permet au formulaire de s'adapter à la largeur de la page */
+   max-width: 600px;
+   /* Largeur maximale du formulaire */
+   margin: 0 auto;
+   /* Centre le formulaire horizontalement */
+   background: black;
+   /* Couleur de fond du formulaire */
+   padding: 1em;
+   /* Espacement intérieur du formulaire */
+   border-radius: 1em;
+   /* Courbure des angles du formulaire */
+ }
+
+ form div {
+   margin-bottom: 20px;
+   /* Espacement entre chaque élément du formulaire */
+ }
+
+ form label {
+   display: block;
+   /* Permet d'occuper toute la largeur du conteneur */
+   margin-bottom: 5px;
+   /* Espacement entre le label et le champ de saisie/sélection */
+ }
+
+ form input,
+ form select {
+   width: 100%;
+   /* Permet aux champs de saisie/sélection de remplir tout l'espace disponible */
+   padding: 10px;
+   /* Espacement intérieur des champs de saisie/sélection */
+   /* ... autres styles pour les champs de saisie/sélection ... */
+ }
+
+
+ #comment {
+   width: 100%;
+ }
+
+ /* Style pour les écrans mobiles */
+ @media screen and (max-width: 600px) {
+
+   #envoyer {
+     background-image: url("./envoyer.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     text-indent: -9999px;
+     width: 40px;
+     /* Ajustez la largeur en fonction de la taille de votre icône */
+     height: 40px;
+     /* Ajustez la hauteur en fonction de la taille de votre icône */
+   }
+
+    #envoyer:hover {
+      background-image: url("./envoyer-autre.png");
+    }
+
+ }

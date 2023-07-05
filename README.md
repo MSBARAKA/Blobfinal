@@ -1,2 +1,2 @@
 # Blobfinal
-Site html css javascript pour la vente de blobs front-end
+Site html css  pour la vente de blobs front-end
